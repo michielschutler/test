@@ -31,7 +31,7 @@ jobs:
           node-version: '18'
 
       - name: Install TypeScript Compiler
-        run: npm install -g tsc
+        run: npm install -g typescript
 
       - name: Compile TypeScript
         run: tsc
