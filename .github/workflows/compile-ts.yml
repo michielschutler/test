@@ -35,3 +35,7 @@ jobs:
 
       - name: Compile TypeScript
         run: tsc
+
+      - run: ls -l dist/
+
+      - run: cat dist/app.js
